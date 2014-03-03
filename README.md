@@ -8,6 +8,7 @@ Sometimes these get corrupted, and this is a tool for indentifying which setting
 ## Usage
 
 1. Use Apple Remote Desktop to send
+:::bash
      mcxquerty -computerOnly
 2. Export the results as a text file
 3. Call the compare_mcx_printing.py file with the text file as the first argument
