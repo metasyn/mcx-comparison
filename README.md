@@ -7,9 +7,10 @@ Sometimes these get corrupted, and this is a tool for indentifying which setting
 
 ## Usage
 
-1. Use Apple Remote Desktop to send
-:::bash
-     mcxquerty -computerOnly
+1. Use Apple Remote Desktop to get a list of mcxsettings via the command "mcxquery -computerOnly"
 2. Export the results as a text file
 3. Call the compare_mcx_printing.py file with the text file as the first argument
-     python compare_mcx_printing.py a_list_of_mcx_settings.txt
+
+## Example
+
+You can use the two text files in the test folder to see what a clean result & result with errors looks like.
