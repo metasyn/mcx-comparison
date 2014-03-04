@@ -13,4 +13,5 @@ Sometimes these get corrupted, and this is a tool for indentifying which setting
 
 ## Example
 
-You can use the two text files in the test folder to see what a clean result & result with errors looks like.
+You can use the two text files in the test folder to see what a clean result & result with errors looks like. 
+There is a file called comparison_results.txt which will show you what the outputs of the command will look like.
